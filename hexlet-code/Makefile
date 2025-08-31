@@ -12,4 +12,10 @@ fix:
 		uv run ruff check --fix
 force:
 	uv tool install --force dist/*.whl
+	
 
+format:
+	uv run ruff format brain_games
+
+check-format:
+	uv run ruff format --check brain_games

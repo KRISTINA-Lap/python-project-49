@@ -9,6 +9,7 @@ description = "Brain Games collection"
 authors = [
     {name = "Your Name", email = "your@email.com"}
 ]
+requires-python = ">=3.8"  # ← Добавляем эту строку
 dependencies = [
     "prompt",
 ]
@@ -18,3 +19,20 @@ brain-games = "brain_games.scripts.brain_games:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["brain_games"]
+
+[tool.ruff]
+line-length = 88  # Эта строка должна быть на верхнем уровне
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "F",  # pyflakes
+    "W",  # pycodestyle warnings
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+ignore = []
+
+[tool.ruff.lint.isort]
+known-first-party = ["brain_games"]

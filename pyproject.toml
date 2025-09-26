@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Brain Games collection"
+authors = [
+    {name = "Your Name", email = "your@email.com"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "prompt",
+]
+
+[project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main" 
+brain-progression = "brain_games.scripts.brain_progression:main" 
+brain-prime = "brain_games.scripts.brain_prime:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["brain_games"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "C", "B"]
+ignore = []
+
+[tool.ruff.lint.isort]
+known-first-party = ["brain_games"]

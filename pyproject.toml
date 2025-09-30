@@ -40,3 +40,14 @@ known-first-party = ["brain_games"]
 dev = [
     "ruff>=0.13.2",
 ]
+
+[tool.hatch.build]
+exclude = [
+    "**/.*",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "**/.cache/**",
+    "**/cache/**",
+    "**/tmp/**",
+    "**/temp/**",
+]

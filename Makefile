@@ -1,28 +1,31 @@
+.PHONY: install brain-games brain-even brain-calc brain-gcd brain-progression brain-prime build package-install clean lint format check-format
+
 install:
-		uv sync
+	python3 -m pip install -e .
+
 brain-games:
-		uv run brain-games
+	python3 -m brain_games.scripts.brain_games
+
 brain-even:
-		uv run brain-even
-		
+	python3 -m brain_games.scripts.brain_even
+
 brain-calc:
-	uv run brain-calc
+	python3 -m brain_games.scripts.brain_calc
 
 brain-gcd:
-	uv run brain-gcd
-	
-brain-progression:
-	uv run brain-progression
+	python3 -m brain_games.scripts.brain_gcd
 
-brain-prime: 
-	uv run brain-prime
+brain-progression:
+	python3 -m brain_games.scripts.brain_progression
+
+brain-prime:
+	python3 -m brain_games.scripts.brain_prime
 
 build:
-		uv build
+	python3 -m build
 
 package-install:
-		uv tool install --force dist/*.whl
-		
+	python3 -m pip install --force-reinstall dist/*.whl
 
 clean:
 	rm -rf dist/
@@ -32,20 +35,14 @@ clean:
 	rm -rf brain_games/__pycache__/
 	rm -rf brain_games/games/__pycache__/
 	rm -rf brain_games/scripts/__pycache__/
-	
 
 lint:
-		uv run ruff check brain_games
-fix:
-		uv run ruff check --fix
-force:
-	uv tool install --force dist/*.whl
-	
+	python3 -m ruff check brain_games
 
 format:
-	uv run ruff format brain_games
+	python3 -m ruff format brain_games
 
 check-format:
-	uv run ruff format --check brain_games
-	
+	python3 -m ruff format --check brain_games
+
 reinstall: clean install build package-install

@@ -1,0 +1,12 @@
+{"version": 2, "width": 80, "height": 23, "timestamp": 1760268572, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.014212, "o", "Welcome to the Brain Games!\r\nMay I have your name? "]
+[2.730653, "o", "K"]
+[3.22337, "o", "r"]
+[3.52475, "o", "i"]
+[3.763554, "o", "s"]
+[4.129656, "o", "\r\n"]
+[4.129756, "o", "Hello, Kris!\r\nAnswer \"yes\" if given number is prime. Otherwise answer \"no\".\r\nQuestion: 8\r\nYour answer: "]
+[25.194049, "o", "y"]
+[25.501472, "o", "e"]
+[25.992263, "o", "s"]
+[26.613335, "o", "\r\n'yes' is wrong answer ;(. Correct answer was 'no'.\r\nLet's try again, Kris!\r\n"]

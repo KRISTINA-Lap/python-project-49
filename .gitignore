@@ -9,3 +9,44 @@ wheels/
 # Virtual environments
 .venv
 hexlet-code/
+
+# Системные файлы
+.local/
+snap/
+.cache/
+.mozilla/
+.firefox/
+Trash/
+
+# Другие проекты
+python-project-50/
+hexlet-code-clean/
+
+# Системные файлы
+.bash*
+.config/
+.dotnet/
+.gitconfig
+.gnupg/
+.lesshst
+.pki/
+.profile
+.python-version
+.ssh/
+.sudo_as_admin_successful
+.viminfo
+.vscode/
+.wget-hsts
+.zshrc
+
+# Временные файлы
+uv.lock*
+.github-backup/
+run_games.sh
+
+# Другие проекты
+python-project-50/
+
+# Рабочие директории
+Рабочий стол/
+Типовые вопросы.txt

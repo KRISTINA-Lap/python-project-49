@@ -4,12 +4,7 @@
 
 ## Демонстрация
 
-[Brain Even](https://asciinema.org/a/7aifDzshfpkJlcCSvKaU8G1cF)
-
-[Brain Calc](https://asciinema.org/a/PaYerWCQKzFlcjB4Y8ZmeGFri)
-
-### Brain GCD
-[![asciicast](https://asciinema.org/a/JEP0UKBILaZpNkLhUCmolJIUw.svg)](https://asciinema.org/a/JEP0UKBILaZpNkLhUCmolJIUw)
+[Brain Even](https://asciinema.org/a/7aifDzshfpkJlcCSvKaU8G1cF) [Brain Calc](https://asciinema.org/a/PaYerWCQKzFlcjB4Y8ZmeGFri) [Brain GCD](https://asciinema.org/a/JEP0UKBILaZpNkLhUCmolJIUw)
 
 ### Brain Progression
 [![asciicast](https://asciinema.org/a/JItLzwPLHgPo94ccI6hvCb44t.svg)](https://asciinema.org/a/JItLzwPLHgPo94ccI6hvCb44t)

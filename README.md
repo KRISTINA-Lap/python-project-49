@@ -6,8 +6,7 @@
 
 [Brain Even](https://asciinema.org/a/7aifDzshfpkJlcCSvKaU8G1cF)
 
-### Brain Calc
-[[Brain Calc](https://asciinema.org/a/PaYerWCQKzFlcjB4Y8ZmeGFri.svg)](https://asciinema.org/a/PaYerWCQKzFlcjB4Y8ZmeGFri)
+[Brain Calc](https://asciinema.org/a/PaYerWCQKzFlcjB4Y8ZmeGFri)
 
 ### Brain GCD
 [![asciicast](https://asciinema.org/a/JEP0UKBILaZpNkLhUCmolJIUw.svg)](https://asciinema.org/a/JEP0UKBILaZpNkLhUCmolJIUw)

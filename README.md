@@ -4,8 +4,7 @@
 
 ## Демонстрация
 
-[Brain Even](https://asciinema.org/a/7aifDzshfpkJlcCSvKaU8G1cF) [Brain Calc](https://asciinema.org/a/PaYerWCQKzFlcjB4Y8ZmeGFri) [Brain GCD](https://asciinema.org/a/JEP0UKBILaZpNkLhUCmolJIUw) [Brain Progression](https://asciinema.org/a/JItLzwPLHgPo94ccI6hvCb44t)
-[Brain Prime](https://asciinema.org/a/DM429MXeGTeYxcsEua55u0Bzv.svg)](https://asciinema.org/a/DM429MXeGTeYxcsEua55u0Bzv)
+[Brain Even](https://asciinema.org/a/7aifDzshfpkJlcCSvKaU8G1cF) [Brain Calc](https://asciinema.org/a/PaYerWCQKzFlcjB4Y8ZmeGFri) [Brain GCD](https://asciinema.org/a/JEP0UKBILaZpNkLhUCmolJIUw) [Brain Progression](https://asciinema.org/a/JItLzwPLHgPo94ccI6hvCb44t) [Brain Prime](https://asciinema.org/a/DM429MXeGTeYxcsEua55u0Bzv)
 
 ## Сборка
 

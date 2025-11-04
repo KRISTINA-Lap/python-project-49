@@ -51,3 +51,10 @@ exclude = [
     "**/tmp/**",
     "**/temp/**",
 ]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "coverage",
+    "pytest-cov",
+]
